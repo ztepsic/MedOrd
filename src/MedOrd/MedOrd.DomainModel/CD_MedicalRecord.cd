@@ -1,0 +1,78 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<ClassDiagram MajorVersion="1" MinorVersion="1">
+  <Class Name="MedOrd.DomainModel.MedicalRecord">
+    <Position X="1.25" Y="0.5" Width="2.25" />
+    <TypeIdentifier>
+      <HashCode>QAAIAEAAAAAAAAAAAAACAAAAHAAAgAQAAIAAAAAACAA=</HashCode>
+      <FileName>MedicalRecord.cs</FileName>
+    </TypeIdentifier>
+    <ShowAsCollectionAssociation>
+      <Property Name="MedicalExaminations" />
+    </ShowAsCollectionAssociation>
+  </Class>
+  <Class Name="MedOrd.DomainModel.Therapy">
+    <Position X="1.25" Y="4.5" Width="1.75" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAABQAUgBEAEIAAAgAAAAIQABAAFAAAABQABAAA=</HashCode>
+      <FileName>Therapy.cs</FileName>
+    </TypeIdentifier>
+    <ShowAsAssociation>
+      <Property Name="TherapyDrug" />
+    </ShowAsAssociation>
+  </Class>
+  <Class Name="MedOrd.DomainModel.Diagnosis">
+    <Position X="8.5" Y="4.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAEAEAAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>Diagnosis.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="MedOrd.DomainModel.MedicalCase">
+    <Position X="7.5" Y="0.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAFAEAAAQAAAAAAAAAAABAAAAAAAAAAA=</HashCode>
+      <FileName>MedicalCase.cs</FileName>
+    </TypeIdentifier>
+    <ShowAsAssociation>
+      <Property Name="Diagnosis" />
+    </ShowAsAssociation>
+  </Class>
+  <Class Name="MedOrd.DomainModel.MedicalExamination">
+    <Position X="4.25" Y="0.5" Width="2" />
+    <AssociationLine Name="Therapies" Type="MedOrd.DomainModel.Therapy" ManuallyRouted="true" FixedFromPoint="true" FixedToPoint="true">
+      <Path>
+        <Point X="4.812" Y="4.367" />
+        <Point X="4.812" Y="4.483" />
+        <Point X="4.823" Y="4.483" />
+        <Point X="4.823" Y="4.719" />
+        <Point X="3" Y="4.719" />
+      </Path>
+    </AssociationLine>
+    <TypeIdentifier>
+      <HashCode>AQAAIAAAAAAAAgAAAAMAAQgCRAAAAAQBAAAAAAAAAUA=</HashCode>
+      <FileName>MedicalExamination.cs</FileName>
+    </TypeIdentifier>
+    <ShowAsAssociation>
+      <Property Name="MedicalCase" />
+    </ShowAsAssociation>
+    <ShowAsCollectionAssociation>
+      <Property Name="Therapies" />
+      <Property Name="MedicalReferences" />
+    </ShowAsCollectionAssociation>
+  </Class>
+  <Class Name="MedOrd.DomainModel.MedicalReference">
+    <Position X="6" Y="5" Width="2" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAACAJAAAAgAAAAAAAAAACACAAAAAAAACQA=</HashCode>
+      <FileName>MedicalReference.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="MedOrd.DomainModel.Drug">
+    <Position X="4.25" Y="6.25" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAgAAAAAAAQgAAAEAAAAAAQAAAAAIAAAAAAAAAAAAAA=</HashCode>
+      <FileName>Drug.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Font Name="Segoe UI" Size="9" />
+</ClassDiagram>

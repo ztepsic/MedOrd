@@ -1,0 +1,207 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<ClassDiagram MajorVersion="1" MinorVersion="1">
+  <Class Name="MedOrd.DomainModel.Address" Collapsed="true">
+    <Position X="34" Y="0.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAIAAIACAAAABAAAAAAAAIAAAAAABA=</HashCode>
+      <FileName>Address.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="MedOrd.DomainModel.City">
+    <Position X="3.25" Y="4" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAIAAAAAQAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>City.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="MedOrd.DomainModel.Diagnosis">
+    <Position X="10.5" Y="4" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAEAEAAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>Diagnosis.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="MedOrd.DomainModel.Drug">
+    <Position X="21.25" Y="4" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAgAAAAAAAQgAAAEAAAAAAQAAAAAIAAAAAAAAAAAAAA=</HashCode>
+      <FileName>Drug.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="MedOrd.DomainModel.Employee">
+    <Position X="15.75" Y="7" Width="2" />
+    <TypeIdentifier>
+      <HashCode>ACAQAAAAAACAAIAEAQAACgEAAAgAAAACAAAAAAAgAAA=</HashCode>
+      <FileName>Employee.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="MedOrd.DomainModel.MedicalCareActivity" Collapsed="true">
+    <Position X="31.25" Y="4" Width="1.75" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAEAEAAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>MedicalCareActivity.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="MedOrd.DomainModel.MedicalCase">
+    <Position X="1" Y="4" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAFAEAAAQAAAAAAAAAAABAAAAAAAAAAA=</HashCode>
+      <FileName>MedicalCase.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="MedOrd.DomainModel.MedicalExamination">
+    <Position X="5.5" Y="4" Width="2" />
+    <TypeIdentifier>
+      <HashCode>AQAAIAAAAAAAAgAAAAMAAQgCRAAAAAQBAAAAAAAAAUA=</HashCode>
+      <FileName>MedicalExamination.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="MedOrd.DomainModel.MedicalInstitution">
+    <Position X="12.75" Y="4" Width="2.25" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAEAAAAAEEAAAAAQAAAAgAAAAAAAQAAAAAAA=</HashCode>
+      <FileName>MedicalInstitution.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="MedOrd.DomainModel.MedicalRecord">
+    <Position X="23.5" Y="4" Width="2.25" />
+    <TypeIdentifier>
+      <HashCode>QAAIAEAAAAAAAAAAAAACAAAAHAAAgAQAAIAAAAAACAA=</HashCode>
+      <FileName>MedicalRecord.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="MedOrd.DomainModel.MedicalReference" Collapsed="true">
+    <Position X="29" Y="4" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAACAJAAAAgAAAAAAAAAACACAAAAAAAACQA=</HashCode>
+      <FileName>MedicalReference.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="MedOrd.DomainModel.Patient">
+    <Position X="18.5" Y="7" Width="2" />
+    <TypeIdentifier>
+      <HashCode>IAAAAAAAAAAAAIAEgAABEAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>Patient.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="MedOrd.DomainModel.PersistentObject">
+    <Position X="16" Y="0.5" Width="1.75" />
+    <TypeIdentifier>
+      <HashCode>AAACAAAAAACAAAAAgAAAAAQAAAAAAIAAAAAAAAAAAgA=</HashCode>
+      <FileName>PersistentObject.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="MedOrd.DomainModel.Person">
+    <Position X="8.25" Y="4" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAIAAgAABAAQABAAAAAACAAAAAAAAAAA=</HashCode>
+      <FileName>Person.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="MedOrd.DomainModel.PersonRole">
+    <Position X="17.25" Y="4" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAACAAAA=</HashCode>
+      <FileName>PersonRole.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="MedOrd.DomainModel.Therapy">
+    <Position X="26.5" Y="4" Width="1.75" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAABQAUgBEAEIAAAgAAAAIQABAAFAAAABQABAAA=</HashCode>
+      <FileName>Therapy.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="MedOrd.DomainModel.WaitingRoom" Collapsed="true">
+    <Position X="35.75" Y="1.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAQAAAAAAAAAgAAAAIAABAAABAQAIAAAAAAAA=</HashCode>
+      <FileName>WaitingRoom.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="MedOrd.DomainModel.Exceptions.NotDoctorException" Collapsed="true">
+    <Position X="34" Y="1.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAIAAAAAA=</HashCode>
+      <FileName>Exceptions\NotDoctorException.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="MedOrd.DomainModel.Services.AuthService" Collapsed="true">
+    <Position X="35.75" Y="0.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAgAAAAAAAAAAAAAAQIAAgAAAAAAAAAQAAABAAA=</HashCode>
+      <FileName>Services\AuthService.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Interface Name="MedOrd.DomainModel.RepositoryInterfaces.ICityRepository">
+    <Position X="3.5" Y="14" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAgAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>RepositoryInterfaces\ICityRepository.cs</FileName>
+    </TypeIdentifier>
+  </Interface>
+  <Interface Name="MedOrd.DomainModel.RepositoryInterfaces.IDiagnosisRepository">
+    <Position X="8.75" Y="14" Width="1.75" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>RepositoryInterfaces\IDiagnosisRepository.cs</FileName>
+    </TypeIdentifier>
+  </Interface>
+  <Interface Name="MedOrd.DomainModel.RepositoryInterfaces.IDrugRepository">
+    <Position X="14" Y="14" Width="2" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAABAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>RepositoryInterfaces\IDrugRepository.cs</FileName>
+    </TypeIdentifier>
+  </Interface>
+  <Interface Name="MedOrd.DomainModel.RepositoryInterfaces.IEmployeeRepository">
+    <Position X="19" Y="14" Width="2" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAACAAAAAAAAAAAAAAAAAQA=</HashCode>
+      <FileName>RepositoryInterfaces\IEmployeeRepository.cs</FileName>
+    </TypeIdentifier>
+  </Interface>
+  <Interface Name="MedOrd.DomainModel.RepositoryInterfaces.IMedicalCareActivityRepository">
+    <Position X="21.75" Y="14" Width="2.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>RepositoryInterfaces\IMedicalCareActivityRepository.cs</FileName>
+    </TypeIdentifier>
+  </Interface>
+  <Interface Name="MedOrd.DomainModel.RepositoryInterfaces.IMedicalInstitutionRepository">
+    <Position X="0.5" Y="14" Width="2.25" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>RepositoryInterfaces\IMedicalInstitutionRepository.cs</FileName>
+    </TypeIdentifier>
+  </Interface>
+  <Interface Name="MedOrd.DomainModel.RepositoryInterfaces.IMedicalRecordRepository">
+    <Position X="5.75" Y="14" Width="2.25" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAgAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>RepositoryInterfaces\IMedicalRecordRepository.cs</FileName>
+    </TypeIdentifier>
+  </Interface>
+  <Interface Name="MedOrd.DomainModel.RepositoryInterfaces.IPatientRepository">
+    <Position X="11.25" Y="14" Width="2" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAgAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>RepositoryInterfaces\IPatientRepository.cs</FileName>
+    </TypeIdentifier>
+  </Interface>
+  <Interface Name="MedOrd.DomainModel.RepositoryInterfaces.IPersonRepository">
+    <Position X="16.75" Y="14" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAEAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>RepositoryInterfaces\IPersonRepository.cs</FileName>
+    </TypeIdentifier>
+  </Interface>
+  <Interface Name="MedOrd.DomainModel.RepositoryInterfaces.IRepository&lt;T&gt;">
+    <Position X="11.75" Y="11.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAIAAAAAAAAAAAAAAAAAAAAEAAAAAAgAAAAAAAIA=</HashCode>
+      <FileName>RepositoryInterfaces\IRepository.cs</FileName>
+    </TypeIdentifier>
+  </Interface>
+  <Font Name="Segoe UI" Size="9" />
+</ClassDiagram>

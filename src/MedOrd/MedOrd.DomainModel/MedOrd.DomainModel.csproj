@@ -1,0 +1,96 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" DefaultTargets="Build" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <PropertyGroup>
+    <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
+    <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
+    <ProductVersion>9.0.30729</ProductVersion>
+    <SchemaVersion>2.0</SchemaVersion>
+    <ProjectGuid>{74D4B5DA-1BBE-467B-ACD7-50D844469BCB}</ProjectGuid>
+    <OutputType>Library</OutputType>
+    <AppDesignerFolder>Properties</AppDesignerFolder>
+    <RootNamespace>MedOrd.DomainModel</RootNamespace>
+    <AssemblyName>MedOrd.DomainModel</AssemblyName>
+    <TargetFrameworkVersion>v3.5</TargetFrameworkVersion>
+    <FileAlignment>512</FileAlignment>
+    <FileUpgradeFlags>
+    </FileUpgradeFlags>
+    <OldToolsVersion>3.5</OldToolsVersion>
+    <UpgradeBackupLocation />
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|AnyCPU' ">
+    <DebugSymbols>true</DebugSymbols>
+    <DebugType>full</DebugType>
+    <Optimize>false</Optimize>
+    <OutputPath>bin\Debug\</OutputPath>
+    <DefineConstants>DEBUG;TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Release|AnyCPU' ">
+    <DebugType>pdbonly</DebugType>
+    <Optimize>true</Optimize>
+    <OutputPath>bin\Release\</OutputPath>
+    <DefineConstants>TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <ItemGroup>
+    <Reference Include="System" />
+    <Reference Include="System.Core">
+      <RequiredTargetFramework>3.5</RequiredTargetFramework>
+    </Reference>
+    <Reference Include="System.Drawing" />
+    <Reference Include="System.Xml.Linq">
+      <RequiredTargetFramework>3.5</RequiredTargetFramework>
+    </Reference>
+    <Reference Include="System.Data" />
+    <Reference Include="System.Xml" />
+  </ItemGroup>
+  <ItemGroup>
+    <Compile Include="Address.cs" />
+    <Compile Include="Diagnosis.cs" />
+    <Compile Include="Drug.cs" />
+    <Compile Include="Employee.cs" />
+    <Compile Include="Enumerations\EmployeeRole.cs" />
+    <Compile Include="Exceptions\NotDoctorException.cs" />
+    <Compile Include="MedicalCareActivity.cs" />
+    <Compile Include="MedicalCase.cs" />
+    <Compile Include="MedicalExamination.cs" />
+    <Compile Include="MedicalInstitution.cs" />
+    <Compile Include="MedicalRecord.cs" />
+    <Compile Include="MedicalReference.cs" />
+    <Compile Include="Patient.cs" />
+    <Compile Include="PersistentObject.cs" />
+    <Compile Include="Person.cs" />
+    <Compile Include="Properties\AssemblyInfo.cs" />
+    <Compile Include="City.cs" />
+    <Compile Include="RepositoryInterfaces\ICityRepository.cs" />
+    <Compile Include="RepositoryInterfaces\IDiagnosisRepository.cs" />
+    <Compile Include="RepositoryInterfaces\IDrugRepository.cs" />
+    <Compile Include="RepositoryInterfaces\IEmployeeRepository.cs" />
+    <Compile Include="RepositoryInterfaces\IMedicalCareActivityRepository.cs" />
+    <Compile Include="RepositoryInterfaces\IMedicalInstitutionRepository.cs" />
+    <Compile Include="RepositoryInterfaces\IMedicalRecordRepository.cs" />
+    <Compile Include="RepositoryInterfaces\IPersonRepository.cs" />
+    <Compile Include="RepositoryInterfaces\IRepository.cs" />
+    <Compile Include="PersonRole.cs" />
+    <Compile Include="RepositoryInterfaces\IPatientRepository.cs" />
+    <Compile Include="Services\AuthService.cs" />
+    <Compile Include="Therapy.cs" />
+    <Compile Include="WaitingRoom.cs" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="CD_Full.cd" />
+    <None Include="CD_MedicalRecord.cd" />
+    <None Include="CD_MedicalReference.cd" />
+    <None Include="CD_PersonsEmployeesPatients.cd" />
+  </ItemGroup>
+  <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
+  <!-- To modify your build process, add your task inside one of the targets below and uncomment it. 
+       Other similar extension points exist, see Microsoft.Common.targets.
+  <Target Name="BeforeBuild">
+  </Target>
+  <Target Name="AfterBuild">
+  </Target>
+  -->
+</Project>

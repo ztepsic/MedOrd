@@ -1,0 +1,67 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<ClassDiagram MajorVersion="1" MinorVersion="1">
+  <Interface Name="MedOrd.ViewInterfaces.ILoginView" Collapsed="true">
+    <Position X="0.5" Y="0.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAQAAAAAAAAAAAAACAAAAAAAAAAA=</HashCode>
+      <FileName>ILoginView.cs</FileName>
+    </TypeIdentifier>
+  </Interface>
+  <Interface Name="MedOrd.ViewInterfaces.IMainView" Collapsed="true">
+    <Position X="2.25" Y="0.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>IMainView.cs</FileName>
+    </TypeIdentifier>
+  </Interface>
+  <Interface Name="MedOrd.ViewInterfaces.IMedicalExaminationView" Collapsed="true">
+    <Position X="4" Y="0.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAQAAAAIAIAAAAABAAAAAAAAAAAAAUAAAAAAACAA=</HashCode>
+      <FileName>IMedicalExaminationView.cs</FileName>
+    </TypeIdentifier>
+  </Interface>
+  <Interface Name="MedOrd.ViewInterfaces.IMedicalRecordView" Collapsed="true">
+    <Position X="0.5" Y="1.25" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAEAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>IMedicalRecordView.cs</FileName>
+    </TypeIdentifier>
+  </Interface>
+  <Interface Name="MedOrd.ViewInterfaces.IMedicalReferenceView" Collapsed="true">
+    <Position X="2.25" Y="1.25" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AEAAAAAAAAAAABAAAAAAAAAACBQAAAAAAAAAAAAAEAA=</HashCode>
+      <FileName>IMedicalReferenceView.cs</FileName>
+    </TypeIdentifier>
+  </Interface>
+  <Interface Name="MedOrd.ViewInterfaces.IPatientSearchView" Collapsed="true">
+    <Position X="4" Y="1.25" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>CAAAAAACAAAAAAAAAAAAAAAQAAAAAAAABAAAAAAAAAA=</HashCode>
+      <FileName>IPatientSearchView.cs</FileName>
+    </TypeIdentifier>
+  </Interface>
+  <Interface Name="MedOrd.ViewInterfaces.IPatientView" Collapsed="true">
+    <Position X="0.5" Y="2" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>MAAAAAAAAQAAAAAEBAAJEAQAAAAAAAAAAAIACAAAAAA=</HashCode>
+      <FileName>IPatientView.cs</FileName>
+    </TypeIdentifier>
+  </Interface>
+  <Interface Name="MedOrd.ViewInterfaces.ITherapyView" Collapsed="true">
+    <Position X="2.25" Y="2" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAQAAAAABAAAAAAABAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>ITherapyView.cs</FileName>
+    </TypeIdentifier>
+  </Interface>
+  <Interface Name="MedOrd.ViewInterfaces.IWaitingRoomView" Collapsed="true">
+    <Position X="4" Y="2" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>CAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAABAAAAAAAAAA=</HashCode>
+      <FileName>IWaitingRoomView.cs</FileName>
+    </TypeIdentifier>
+  </Interface>
+  <Font Name="Segoe UI" Size="9" />
+</ClassDiagram>
